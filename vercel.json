@@ -11,10 +11,6 @@
       "src": "/api/chat",
       "dest": "server/index.js",
       "methods": ["POST"]
-    },
-    {
-      "src": "/(.*)",
-      "dest": "public/$1"  // Serve frontend files (if any)
     }
   ]
 }
